@@ -18,5 +18,9 @@
         android:id="@+id/infoFragment"
         android:name="com.example.orxanimtahan.InfoFragment"
         android:label="fragment_info"
-        tools:layout="@layout/fragment_info" />
+        tools:layout="@layout/fragment_info" >
+        <argument
+            android:name="info"
+            app:argType="com.example.orxanimtahan.User" />
+    </fragment>
 </navigation>
